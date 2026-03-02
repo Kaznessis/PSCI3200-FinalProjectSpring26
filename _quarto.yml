@@ -1,0 +1,14 @@
+#defining the project
+project:
+  type: website #file of type website
+  output-dir: docs #this is a defualt setting that github looks for
+
+#defining the website: 
+website:
+  title: "Serafeim Kaznessis - PSCI 3200" #specifics about the website
+  navbar: 
+    left: 
+      - href: index.qmd
+        text: Home
+      - href: PSCI3200ProjectProposal.qmd
+        text: Research Question

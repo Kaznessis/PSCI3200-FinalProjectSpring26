@@ -1,0 +1,49 @@
+---
+title: "PSCI3200: Colonization and Oncology Care"
+format: html
+editor: visual
+---
+
+## Introduction
+
+It is well documented that colonization regimes characterized by high extraction and coercive institutional design generated persistent weakness in state capacity and public service provision after independence. At the same time, oncology-related mortality is rising across many sub-Saharan African countries, with marked disparities in access to diagnosis and treatment. This project builds on those literatures by examining whether the intensity and duration of colonial exposure are associated with contemporary variation in rural oncology infrastructure across African states. By linking historical extractive institutions to present-day cancer care capacity, the analysis aims to clarify whether long-run institutional legacies contribute to observed gaps in rural oncology care and burden.
+
+## The Question
+
+**Does greater colonial extraction intensity and longer duration of colonial rule predict contemporary disparities in rural oncology infrastructure?**
+
+## Data
+
+**Independent Variable Data**
+
+-   Slave Trade Intesity —  [Nathan Nunn “The Long-Term Effects of Africa’s Slave Trades”](https://econ2017.sites.olt.ubc.ca/files/2022/01/nathannunn-the-long-term-effect.pdf)
+
+    -   Extraction severity; Violence and depopulation; Institutional breakdown; Long-term mistrust and weak state formation
+
+-   Years Under Colonial Rule — [Colonial/Dependency Contiguity, 1816-2016](https://correlatesofwar.org/data-sets/colonial-dependency-contiguity/)
+
+    -   Administrative exposure; Bureaucratic institutional formation; Infrastructure design; Public investment patterns
+
+-   Type of Colonizer - [CEII](https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele.asp)
+
+**Dependent Variable Data**
+
+A Rural Oncology Infrastructure Index (still exploring how to normalize all of these variables)\
+
+-   [Mortality Rate (Age-Standardized) ](https://aho.afro.who.int/ind/af?dim=64&cc=af&ci=1)
+
+    -   Mortality has been [on the rise](https://gco.iarc.fr/tomorrow/en/dataviz/trends?multiple_populations=1&populations=903&group_populations=1) in African populations, so I may need to control for this increasing incidence and trace back other possible causes.
+
+-   Cancer Screening Rates ([breast](https://bmjopen.bmj.com/content/10/10/e039464)) (ideally, this data would be specific to rural communities)
+
+-   [Radiotherapy Units per Million Population](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/total-density-per-million-population-radiotherapy-units) [(more evidence)](https://www.sciencedirect.com/science/article/pii/S1470204512705326?via%3Dihub)
+
+-   [Physicians per 10,000](https://data.who.int/indicators/i/CCCEBB2/217795A) 
+
+## Current Literature
+
+Current literature does not directly examine the relationship between colonial exposure and contemporary rural oncology infrastructure. However, adjacent literature provides strong theoretical grounding. There is a robust body of work that documents lower cancer screening rates and reduced access to specialty care in rural settings. [\[1\]](https://pubmed.ncbi.nlm.nih.gov/24913150/) [\[2\]](https://pmc.ncbi.nlm.nih.gov/articles/PMC12406890/#sec24). Separately, economic history research demonstrates that regions more heavily exposed to the slave trade and extractive colonial institutions exhibit persistently weaker infrastructure and public service capacity [\[3\]](https://www.jstor.org/stable/pdf/25098896.pdf). Additionally, there exists detailed analyses of cancer care systems across African countries that highlight substantial gaps in oncology workforce and resources[\[4\]](https://pmc.ncbi.nlm.nih.gov/articles/PMC5551648/?utm_source=chatgpt.com).
+
+## Limitations
+
+The objective of this project is to focus on rural oncology infrastructure in African contexts. However, a key challenge is the limited availability of disaggregated data on oncology-specific resources at the rural level. Most existing data sets report national-level indicators—such as radiotherapy units per million population, physician density, or cancer mortality—without distinguishing between urban and rural distribution. Identifying reliable, comparable rural-specific measures remains a constraint, but is critical to the project's viability.

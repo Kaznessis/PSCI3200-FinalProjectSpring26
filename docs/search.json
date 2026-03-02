@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Serafeim Kaznessis - PSCI 3200",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "index.html#quarto",
+    "href": "index.html#quarto",
+    "title": "Serafeim Kaznessis - PSCI 3200",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "index.html#running-code",
+    "href": "index.html#running-code",
+    "title": "Serafeim Kaznessis - PSCI 3200",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "PSCI3200ProjectProposal.html",
+    "href": "PSCI3200ProjectProposal.html",
+    "title": "PSCI3200: Colonization and Oncology Care",
+    "section": "",
+    "text": "It is well documented that colonization regimes characterized by high extraction and coercive institutional design generated persistent weakness in state capacity and public service provision after independence. At the same time, oncology-related mortality is rising across many sub-Saharan African countries, with marked disparities in access to diagnosis and treatment. This project builds on those literatures by examining whether the intensity and duration of colonial exposure are associated with contemporary variation in rural oncology infrastructure across African states. By linking historical extractive institutions to present-day cancer care capacity, the analysis aims to clarify whether long-run institutional legacies contribute to observed gaps in rural oncology care and burden."
+  },
+  {
+    "objectID": "PSCI3200ProjectProposal.html#introduction",
+    "href": "PSCI3200ProjectProposal.html#introduction",
+    "title": "PSCI3200: Colonization and Oncology Care",
+    "section": "",
+    "text": "It is well documented that colonization regimes characterized by high extraction and coercive institutional design generated persistent weakness in state capacity and public service provision after independence. At the same time, oncology-related mortality is rising across many sub-Saharan African countries, with marked disparities in access to diagnosis and treatment. This project builds on those literatures by examining whether the intensity and duration of colonial exposure are associated with contemporary variation in rural oncology infrastructure across African states. By linking historical extractive institutions to present-day cancer care capacity, the analysis aims to clarify whether long-run institutional legacies contribute to observed gaps in rural oncology care and burden."
+  },
+  {
+    "objectID": "PSCI3200ProjectProposal.html#the-question",
+    "href": "PSCI3200ProjectProposal.html#the-question",
+    "title": "PSCI3200: Colonization and Oncology Care",
+    "section": "The Question",
+    "text": "The Question\nDoes greater colonial extraction intensity and longer duration of colonial rule predict contemporary disparities in rural oncology infrastructure?"
+  },
+  {
+    "objectID": "PSCI3200ProjectProposal.html#data",
+    "href": "PSCI3200ProjectProposal.html#data",
+    "title": "PSCI3200: Colonization and Oncology Care",
+    "section": "Data",
+    "text": "Data\nIndependent Variable Data\n\nSlave Trade Intesity —  Nathan Nunn “The Long-Term Effects of Africa’s Slave Trades”\n\nExtraction severity; Violence and depopulation; Institutional breakdown; Long-term mistrust and weak state formation\n\nYears Under Colonial Rule — Colonial/Dependency Contiguity, 1816-2016\n\nAdministrative exposure; Bureaucratic institutional formation; Infrastructure design; Public investment patterns\n\nType of Colonizer - CEII\n\nDependent Variable Data\nA Rural Oncology Infrastructure Index (still exploring how to normalize all of these variables)\n\n\nMortality Rate (Age-Standardized) \n\nMortality has been on the rise in African populations, so I may need to control for this increasing incidence and trace back other possible causes.\n\nCancer Screening Rates (breast) (ideally, this data would be specific to rural communities)\nRadiotherapy Units per Million Population (more evidence)\nPhysicians per 10,000"
+  },
+  {
+    "objectID": "PSCI3200ProjectProposal.html#current-literature",
+    "href": "PSCI3200ProjectProposal.html#current-literature",
+    "title": "PSCI3200: Colonization and Oncology Care",
+    "section": "Current Literature",
+    "text": "Current Literature\nCurrent literature does not directly examine the relationship between colonial exposure and contemporary rural oncology infrastructure. However, adjacent literature provides strong theoretical grounding. There is a robust body of work that documents lower cancer screening rates and reduced access to specialty care in rural settings. [1] [2]. Separately, economic history research demonstrates that regions more heavily exposed to the slave trade and extractive colonial institutions exhibit persistently weaker infrastructure and public service capacity [3]. Additionally, there exists detailed analyses of cancer care systems across African countries that highlight substantial gaps in oncology workforce and resources[4]."
+  },
+  {
+    "objectID": "PSCI3200ProjectProposal.html#limitations",
+    "href": "PSCI3200ProjectProposal.html#limitations",
+    "title": "PSCI3200: Colonization and Oncology Care",
+    "section": "Limitations",
+    "text": "Limitations\nThe objective of this project is to focus on rural oncology infrastructure in African contexts. However, a key challenge is the limited availability of disaggregated data on oncology-specific resources at the rural level. Most existing data sets report national-level indicators—such as radiotherapy units per million population, physician density, or cancer mortality—without distinguishing between urban and rural distribution. Identifying reliable, comparable rural-specific measures remains a constraint, but is critical to the project’s viability."
+  }
+]
