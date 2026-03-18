@@ -12,3 +12,9 @@ website:
         text: Home
       - href: PSCI3200ProjectProposal.qmd
         text: Research Question
+      - href: Research_Design.qmd
+        text: Research Design
+        
+    ## To add more pages
+    ## - href: XXXXX.qmd
+    ##    text: XXXXX
