@@ -4,13 +4,11 @@ format: html
 editor: visual
 ---
 
-## 
-
 1.  **Describe your research question and provide some background on why you find it interesting or important. Be sure to incorporate the feedback provided on the first assignment. Include references to at least two pieces of existing research that illustrate what has already been discovered about the relationship you are investigating. This could be articles published in academic journals, policy reports and white papers, articles published by think tanks and other credible organizations (ex. Brookings, the United Nations High Commissioner for Refugees, etc.), or pieces of data journalism. A full-credit response will probably be around 150-200 words. (40%)**
 
 **Question:** Does historical exposure to extractive institutions, proxied by slave trade intensity, lead to weaker contemporary oncology infrastructure as measured by cancer screening rates?
 
-This project seeks to investigate whether historical colonial extraction affects disparities in contemporary cancer infrastructure. In particular, the project examines whether African areas historically exposed to higher levels of slave trade extraction exhibit lower cancer screening rates. A large body of research demonstrates that extractive institutions established during the slave trades and colonial periods produced persistent economic and institutional consequences across modern Africa. [Nunn (2008)](https://academic.oup.com/qje/article/123/1/139/1889789) shows that regions more heavily exposed to the transatlantic and Indian Ocean slave trades experienced long-term economic decline and weaker institutional development due to violence, depopulation, and social fragmentation. Similarly, [Acemoglu, Johnson, and Robinson (2001)](https://www.aeaweb.org/articles?id=10.1257/aer.91.5.1369) argue that colonial powers frequently established extractive institutions designed to concentrate wealth away from citizens rather than develop inclusive governance systems, leaving durable effects on public service provision post-independence. These institutional weaknesses likely reduce state capacity to invest in public health systems, including preventative oncology services such as screening programs.
+This project seeks to investigate whether historical colonial extraction affects disparities in contemporary cancer infrastructure. In particular, the project examines whether African areas historically exposed to higher levels of slave trade extraction exhibit lower cancer screening rates. A large body of research demonstrates that extractive institutions established during the slave trades and colonial periods produced persistent economic and institutional consequences across modern Africa. [Nunn (2008)](https://www.nber.org/system/files/working_papers/w13367/w13367.pdf) shows that regions more heavily exposed to the transatlantic and Indian Ocean slave trades experienced long-term economic decline and weaker institutional development due to violence, depopulation, and social fragmentation. Similarly, [Acemoglu, Johnson, and Robinson (2001)](https://www.aeaweb.org/articles?id=10.1257/aer.91.5.1369) argue that colonial powers frequently established extractive institutions designed to concentrate wealth away from citizens rather than develop inclusive governance systems, leaving durable effects on public service provision post-independence. These institutional weaknesses likely reduce state capacity to invest in public health systems, including preventative oncology services such as screening programs.
 
 Complementing this institutional literature, global health research [(e.g., Lancet Oncology Commission)](https://www.thelancet.com/commissions-do/cancer-in-sub-saharan-africa) documents persistent deficits in cancer screening, diagnostic capacity, and workforce availability across sub-Saharan Africa. 
 
@@ -18,7 +16,7 @@ This project, therefore, tests whether long-run institutional legacies help expl
 
 2.  **State at least one testable hypothesis. Distill your research question into a statement about a specific relationship you expect to see in the world. In most cases, this hypothesis will describe a causal relationship between two variables (i.e. changes in x cause changes in y). Make an argument for why you expect to see this relationship. This should be based on related findings from existing research and/or your own theoretical/logical reasoning. A full-credit response will probably be around 150-200 words. (25%)**
 
-Hypothesis: Communities located within historical ethnic homelands that experienced higher levels of slave trade extraction will exhibit lower contemporary cancer screening rates.
+**Hypothesis:** Communities located within historical ethnic homelands that experienced higher levels of slave trade extraction will exhibit lower contemporary cancer screening rates.
 
 This hypothesis is grounded in literature linking historical extraction to long-run institutional and developmental outcomes. Nunn (2008) demonstrates that regions of Africa more heavily exposed to the slave trade experienced persistent economic decline and weaker institutional development. Moreover, [Michalopoulos and Papaioannou (2014)](https://academic.oup.com/qje/article/129/1/151/1897929?guestAccessKey=) further demonstrate that historical ethnic homelands remain meaningful units for analyzing contemporary outcomes in Africa, with institutional legacies continuing to shape subnational development.
 
@@ -28,7 +26,7 @@ Together, these mechanisms imply that regions more heavily exposed to historical
 
 3.  **Briefly discuss the specific variables you will use to test your hypothesis and the dataset they are drawn from. Be sure to mention the source of the data (the organization or individuals that produced it), the unit of analysis, and the sample. Create a ggplot to visualize the relationship between the variables being used to test your hypothesis. The best method of visualizing this relationship will depend on the scale of your variables. Good methods to consider are scatter plots (for continuous variables), grouped bar charts (for ordinal or binary variables), and line graphs (for continuous variables with time-series). (25%)**
 
-To test the hypothesis, the analysis links historical slave trade exposure to contemporary cancer screening outcomes using spatially matched datasets. The project draws from Nathan Nunn’s Slave Trade Database, which estimates the number of individuals exported from Africa by ethnic groups during the transatlantic and Indian Ocean slave trades. The key independent variable is slave trade intensity, measured as the number of individuals exported from each ethnic group in Nunn (2008). This metric, demonstrating slave trade extraction by ethnic group, is merged with [Murdock’s Ethnic Homeland Shapefile](https://nathannunn.arts.ubc.ca/data/), which geolocates historical ethnic territories across Africa.
+To test the hypothesis, the analysis links historical slave trade exposure to contemporary cancer screening outcomes using spatially matched datasets. The project draws from [Nathan Nunn’s Slave Trade Database](https://nathannunn.arts.ubc.ca/data/), which estimates the number of individuals exported from Africa by ethnic groups during the transatlantic and Indian Ocean slave trades. The key independent variable is slave trade intensity, measured as the number of individuals exported from each ethnic group in Nunn (2008). This metric, demonstrating slave trade extraction by ethnic group, is merged with [Murdock’s Ethnic Homeland Shapefile](https://nathannunn.arts.ubc.ca/data/), which geolocates historical ethnic territories across Africa.
 
 The dependent variable is cervical cancer screening rates, drawn from the Demographic and Health Surveys (DHS) program administered by USAID. DHS provides geocoded cluster-level data on women’s health behaviors, including whether respondents have received cervical cancer screening. The unit of analysis is the DHS survey cluster, representing local communities with observed screening outcomes and assigned historical exposure.
 
@@ -42,13 +40,13 @@ Please note: Due to constraints in manually identifying and extracting relevant 
 
 The spatial maps and scatterplot provide preliminary visual evidence of substantial heterogeneity across ethnic regions, motivating the regression analysis.
 
-\(1\)
+\(1\) **Cervical Cancer Screening Rates Spatial Mapping**
 
 ![](images/clipboard-2354182760.png)
 
-\(2\)
+\(2\) **Slave Trade Intensity Spatial Mapping**
 
-![](images/clipboard-2348563325.png)
+![](images/clipboard-3039526766.png)
 
 \(3\)
 
@@ -70,8 +68,6 @@ $$
 
 Cervical cancer screening rate in DHS cluster c, constructed from DHS individual-level responses.
 
--   
-
 -   **SlaveExports_e** 
 
 Slave trade intensity for ethnic group e, assigned to cluster c via spatial overlap with the Murdock Ethnic Homeland Shapefile and drawn from Nunn (2008).
@@ -92,10 +88,12 @@ Represents country fixed effects, which control for national-level characteristi
 
 Captures whether higher historical extraction intensity is associated with lower contemporary screening rates.
 
-The coefficient β_1 captures the relationship between historical slave trade intensity and contemporary cervical cancer screening rates. A negative and statistically significant β_1 would provide evidence consistent with the hypothesis that greater historical extraction is associated with weaker modern oncology infrastructure, even after controlling for demographic composition (age), urbanization, and country-level factors.\
-\
+The coefficient β_1 captures the relationship between historical slave trade intensity and contemporary cervical cancer screening rates. A negative and statistically significant β_1 would provide evidence consistent with the hypothesis that greater historical extraction is associated with weaker modern oncology infrastructure, even after controlling for demographic composition (age), urbanization, and country-level factors.
+
+**\
+Cervical Cancer Screening Rates vs. Log Slave Export Intensity**\
 ![](images/clipboard-767181625.png)\
-The slave exports metric was logged as the raw slave export variable is highly skewed and non-linear in its relationship with outcomes.
+The slave exports metric was logged as the raw slave export variable is highly skewed and non-linear in its relationship with outcomes. Additionally, please be aware that the following regression has yet to incorporate the control for confounders and country-fixed effects. The full specification will be implemented in future analysis.
 
 **Table 01. Linear Regression of Cervical Cancer Screening Rates on Log Slave Exports.**
 
