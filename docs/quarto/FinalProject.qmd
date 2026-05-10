@@ -1,8 +1,14 @@
 ---
-title: "FinalProject"
+title: "PSCI 3200 Final Project: Historical Extraction and Contemporary Healthcare Access in Sub-Saharan Africa"
 format: html
 bibliography: references.bib
 ---
+
+Author: Serafeim Nikolaos Kaznessis
+
+Mentor: Dr. Carolina Torreblana (PSCI 3200)
+
+Date: May 10 2026
 
 ## Introduction
 
