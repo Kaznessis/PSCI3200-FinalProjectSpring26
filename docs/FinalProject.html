@@ -235,7 +235,7 @@ window.Quarto = {
 <p>The main independent variable is ln_total_exports, the natural logarithm of total slave exports associated with each cluster’s assigned ethnic homeland. This variable operationalizes historical extraction. The dependent variables are DHS measures of self-reported healthcare access barriers, including cost, distance to facility, transportation difficulty, lack of providers, lack of drugs, lack of female doctors, needing permission to seek care, and not wanting to go to healthcare appointments alone. These variables map onto the theoretical concept of healthcare access because they capture practical, financial, geographic, and social constraints that shape whether individuals can realistically obtain care.</p>
 </section>
 <section id="table-1.-summary-statistics-for-main-variables-by-country" class="level4">
-<h4 class="anchored" data-anchor-id="table-1.-summary-statistics-for-main-variables-by-country">Table 1. Summary Statistics for Main Variables by Country</h4>
+<h4 class="anchored" data-anchor-id="table-1.-summary-statistics-for-main-variables-by-country"><strong>Table 1. Summary Statistics for Main Variables by Country</strong></h4>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 14%">
@@ -486,11 +486,13 @@ window.Quarto = {
 </section>
 <section id="findings" class="level2">
 <h2 class="anchored" data-anchor-id="findings">Findings</h2>
-<p><strong>Figure 3: Nigeria Main Regression: Relationship Between Historical Extraction (ln_total_exports) and Mean Healthcare Outcome</strong></p>
+<section id="figure-3-nigeria-main-regression-relationship-between-historical-extraction-ln_total_exports-and-mean-healthcare-outcome" class="level4">
+<h4 class="anchored" data-anchor-id="figure-3-nigeria-main-regression-relationship-between-historical-extraction-ln_total_exports-and-mean-healthcare-outcome"><strong>Figure 3: Nigeria Main Regression: Relationship Between Historical Extraction (ln_total_exports) and Mean Healthcare Outcome</strong></h4>
 <p><img src="images/Figure1.png" class="img-fluid"></p>
 <p><em>Figure 1 displays a negative relationship between extraction and reported healthcare barriers, consistent with the regression results. Clusters with higher historical exposure to extraction tend to report fewer constraints to accessing healthcare. This pattern is consistent with the proposed mechanism of localized economic persistence, whereby historically advantageous regions exhibit higher wealth and improved ability to navigate healthcare constraints.</em></p>
 <p>Across the three countries, the relationship between historical extraction and contemporary healthcare barriers is generally negative, but the strength and persistence of this relationship vary substantially by country. Figure 1 visualizes the relationship between ln_total_exports and the reported healthcare barrier in Nigeria after controlling for urbanity and wealth. Overall, the plotted relationship suggests that clusters with higher historical exposure to extraction tend to report fewer barriers to healthcare access. Furthermore, the plot displays how particularly variables that relate to healthcare intrinsic aspects (eg. bhcnodrug, bhcnofemdrl bhcpermit) exhibit a more negative relationship than those variables that may have to do with more general transportation development (eg. bhcdistance and bhctaketran). This pattern supports the project’s core hypothesis that extraction does not uniformly predict worse local access outcomes. Instead, at the sub-national level, extraction may also capture historical incorporation into trade routes, administrative centers, infrastructure, and service networks, signaling how extraction set up gatekeeper state infrastructure design.</p>
 <p>The regression results provide the clearest support for this pattern in Nigeria. In the uncontrolled models, the coefficients on ln_total_exports are negative for all healthcare barriers. After controlling for both wealth and urbanization, several outcomes remain negative and statistically significant, including lack of drugs, lack of providers, lack of female doctors, and needing permission to seek care.&nbsp;</p>
+</section>
 <section id="table-2.-nigeria-regression-models-controlling-for-urbanization-and-wealth" class="level4">
 <h4 class="anchored" data-anchor-id="table-2.-nigeria-regression-models-controlling-for-urbanization-and-wealth">Table 2. Nigeria Regression Models Controlling for Urbanization and Wealth</h4>
 <table class="caption-top table">
@@ -831,10 +833,13 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="empirical-extension-wealth-and-education-as-developmental-comparisons">Empirical Extension: Wealth and Education as Developmental Comparisons</h2>
 <p>To test whether the healthcare findings reflect a broader developmental pattern or a more healthcare-specific relationship, I examine two related extensions: the relationship between historical extraction and contemporary cluster-level wealth, and the relationship between historical extraction and mean cluster-level education. These tests help clarify whether extraction is simply capturing general development or whether healthcare access has a distinct relationship with historical extraction.</p>
 <p>First, I estimate the direct relationship between&nbsp;ln_total_exports&nbsp;and mean cluster-level wealth. This test evaluates the first link in the proposed mechanism: extraction may be associated with higher contemporary wealth if historically extracted regions were also more likely to be incorporated into trade routes, administrative centers, missionary networks, transportation corridors, or commercial activity. The results show a positive and statistically significant relationship. A one-unit increase in logged slave exports is associated with a 0.028 increase in ethnic-level wealth, with a p-value below 0.001. This supports the possibility that historically extracted regions became more economically incorporated over time rather than uniformly disadvantaged, positing that extraction’s relation to contemporary healthcare access may very well act via increased wealth.</p>
-<p><strong>Figure 4: Relationship Between Historical Extraction (ln_total_exports) and Mean Cluster-Level Wealth</strong></p>
+<section id="figure-4-relationship-between-historical-extraction-ln_total_exports-and-mean-cluster-level-wealth" class="level4">
+<h4 class="anchored" data-anchor-id="figure-4-relationship-between-historical-extraction-ln_total_exports-and-mean-cluster-level-wealth"><strong>Figure 4: Relationship Between Historical Extraction (ln_total_exports) and Mean Cluster-Level Wealth</strong></h4>
 <p><img src="images/Figure2.png" class="img-fluid"></p>
 <p><em>Figure 2 plots the relationship between historical colonial extraction (ln_total_exports) and mean cluster-level wealth, showing a positive and statistically significant association where higher extraction is correlated with higher contemporary wealth.</em></p>
-<p><strong>Table 4. Effect of Colonial Extraction on Cluster-Level Wealth (Nigeria DHS Clusters)</strong></p>
+</section>
+<section id="table-4.-effect-of-colonial-extraction-on-cluster-level-wealth-nigeria-dhs-clusters" class="level4">
+<h4 class="anchored" data-anchor-id="table-4.-effect-of-colonial-extraction-on-cluster-level-wealth-nigeria-dhs-clusters"><strong>Table 4. Effect of Colonial Extraction on Cluster-Level Wealth (Nigeria DHS Clusters)</strong></h4>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 16%">
@@ -872,10 +877,14 @@ window.Quarto = {
 </tbody>
 </table>
 <p>I then use mean cluster-level education as a developmental comparison outcome. In the no-control model, extraction is positively and significantly associated with education: a one-unit increase in logged slave exports corresponds to a 0.209-year increase in mean education. After controlling only for urbanization, this coefficient falls to 0.156 and becomes only marginally significant. Once both urbanization and wealth are included, the coefficient reverses direction to -0.060 and is no longer statistically significant. Meanwhile, wealth remains strongly significant, suggesting that contemporary household wealth explains much more of the variation in education than extraction itself. While this may be explained by a similar mechanism to that one proposed for health care access, that is, extraction leading to higher wealth and higher wealth leading to higher education, this differs from healthcare’s outcome. First, after controlling for both urbanity and wealth, several variables remain significantly negative in healthcare, including lack of drugs, lack of providers, lack of female doctors, and needing permission to seek care. This suggests that extraction’s relationship to healthcare access is not fully explained by contemporary wealth or urban concentration. Second, when controlling only for urbanity, the negative extraction-healthcare relationship becomes more pronounced than in the uncontrolled or fully controlled models. This suggests that extraction is not merely proxying for urban development, but may capture a longer-run institutional or access-related legacy. Compared to education, where the extraction effect weakens after controls, healthcare appears to have a more distinct relationship with extraction.</p>
-<p><strong>Figure 5: Relationship Between Historical Extraction (ln_total_exports) and Mean Education Level (Controlling for Urbanity and Wealth)</strong></p>
+</section>
+<section id="figure-5-relationship-between-historical-extraction-ln_total_exports-and-mean-education-level-controlling-for-urbanity-and-wealth" class="level4">
+<h4 class="anchored" data-anchor-id="figure-5-relationship-between-historical-extraction-ln_total_exports-and-mean-education-level-controlling-for-urbanity-and-wealth"><strong>Figure 5: Relationship Between Historical Extraction (ln_total_exports) and Mean Education Level (Controlling for Urbanity and Wealth)</strong></h4>
 <p><img src="images/Figure3.png" class="img-fluid"></p>
 <p><em>Figure 3 plots mean years of education against historical extraction and shows no statistically significant relationship, supporting the placebo test that extraction does not generally predict human capital outcomes once wealth is controlled for.</em></p>
-<p><strong>Table 5: Placebo Test - Effect of Colonial Extraction on Education (Nigeria DHS Clusters)</strong>&nbsp;</p>
+</section>
+<section id="table-5-placebo-test---effect-of-colonial-extraction-on-education-nigeria-dhs-clusters" class="level4">
+<h4 class="anchored" data-anchor-id="table-5-placebo-test---effect-of-colonial-extraction-on-education-nigeria-dhs-clusters"><strong>Table 5: Placebo Test - Effect of Colonial Extraction on Education (Nigeria DHS Clusters)</strong>&nbsp;</h4>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 12%">
@@ -934,6 +943,7 @@ window.Quarto = {
 </table>
 <p><em>Note:</em> Entries report coefficients from regressions of mean cluster-level education on <code>ln_total_exports</code>. The urban control model includes <code>mean_urban</code>; the full model includes both <code>mean_urban</code> and <code>mean_wealth</code>. Significance markers: <code>.</code> p &lt; 0.10, <code>*</code> p &lt; 0.05, <code>**</code> p &lt; 0.01, <code>***</code> p &lt; 0.001.</p>
 <p>Together, these extensions refine the interpretation of the healthcare findings. The wealth regression supports the proposed mechanism by showing that extraction is positively associated with contemporary wealth. However, the education comparison suggests that extraction is not simply capturing a universal developmental advantage. Instead, the persistent relationship between extraction and healthcare barriers may reflect a more specific access-related pathway involving service environments, institutional presence, infrastructure, or household ability to navigate care.</p>
+</section>
 </section>
 <section id="discussion-and-policy-implications-toward-a-heterogeneous-understanding-of-extractions-legacy" class="level2">
 <h2 class="anchored" data-anchor-id="discussion-and-policy-implications-toward-a-heterogeneous-understanding-of-extractions-legacy">Discussion and Policy Implications: Toward a Heterogeneous Understanding of Extraction’s Legacy</h2>

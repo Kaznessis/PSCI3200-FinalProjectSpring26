@@ -74,7 +74,7 @@ Nigeria serves as the primary case because it has substantial within-country var
 
 The main independent variable is ln_total_exports, the natural logarithm of total slave exports associated with each cluster’s assigned ethnic homeland. This variable operationalizes historical extraction. The dependent variables are DHS measures of self-reported healthcare access barriers, including cost, distance to facility, transportation difficulty, lack of providers, lack of drugs, lack of female doctors, needing permission to seek care, and not wanting to go to healthcare appointments alone. These variables map onto the theoretical concept of healthcare access because they capture practical, financial, geographic, and social constraints that shape whether individuals can realistically obtain care.
 
-#### Table 1. Summary Statistics for Main Variables by Country
+#### **Table 1. Summary Statistics for Main Variables by Country**
 
 | Country | Variable | Description | Mean | SD | Min | Max |
 |-----------|-----------|-----------|----------:|----------:|----------:|----------:|
@@ -128,7 +128,7 @@ The main limitation of this design is that it identifies conditional correlation
 
 ## Findings
 
-**Figure 3: Nigeria Main Regression: Relationship Between Historical Extraction (ln_total_exports) and Mean Healthcare Outcome**
+#### **Figure 3: Nigeria Main Regression: Relationship Between Historical Extraction (ln_total_exports) and Mean Healthcare Outcome**
 
 ![](images/Figure1.png)
 
@@ -196,13 +196,13 @@ To test whether the healthcare findings reflect a broader developmental pattern 
 
 First, I estimate the direct relationship between ln_total_exports and mean cluster-level wealth. This test evaluates the first link in the proposed mechanism: extraction may be associated with higher contemporary wealth if historically extracted regions were also more likely to be incorporated into trade routes, administrative centers, missionary networks, transportation corridors, or commercial activity. The results show a positive and statistically significant relationship. A one-unit increase in logged slave exports is associated with a 0.028 increase in ethnic-level wealth, with a p-value below 0.001. This supports the possibility that historically extracted regions became more economically incorporated over time rather than uniformly disadvantaged, positing that extraction’s relation to contemporary healthcare access may very well act via increased wealth.
 
-**Figure 4: Relationship Between Historical Extraction (ln_total_exports) and Mean Cluster-Level Wealth**
+#### **Figure 4: Relationship Between Historical Extraction (ln_total_exports) and Mean Cluster-Level Wealth**
 
 ![](images/Figure2.png)
 
 *Figure 2 plots the relationship between historical colonial extraction (ln_total_exports) and mean cluster-level wealth, showing a positive and statistically significant association where higher extraction is correlated with higher contemporary wealth.*
 
-**Table 4. Effect of Colonial Extraction on Cluster-Level Wealth (Nigeria DHS Clusters)**
+#### **Table 4. Effect of Colonial Extraction on Cluster-Level Wealth (Nigeria DHS Clusters)**
 
 |  |  |  |  |  |  |
 |------------|------------|------------|------------|------------|------------|
@@ -212,13 +212,13 @@ First, I estimate the direct relationship between ln_total_exports and mean cl
 
 I then use mean cluster-level education as a developmental comparison outcome. In the no-control model, extraction is positively and significantly associated with education: a one-unit increase in logged slave exports corresponds to a 0.209-year increase in mean education. After controlling only for urbanization, this coefficient falls to 0.156 and becomes only marginally significant. Once both urbanization and wealth are included, the coefficient reverses direction to -0.060 and is no longer statistically significant. Meanwhile, wealth remains strongly significant, suggesting that contemporary household wealth explains much more of the variation in education than extraction itself. While this may be explained by a similar mechanism to that one proposed for health care access, that is, extraction leading to higher wealth and higher wealth leading to higher education, this differs from healthcare’s outcome. First, after controlling for both urbanity and wealth, several variables remain significantly negative in healthcare, including lack of drugs, lack of providers, lack of female doctors, and needing permission to seek care. This suggests that extraction’s relationship to healthcare access is not fully explained by contemporary wealth or urban concentration. Second, when controlling only for urbanity, the negative extraction-healthcare relationship becomes more pronounced than in the uncontrolled or fully controlled models. This suggests that extraction is not merely proxying for urban development, but may capture a longer-run institutional or access-related legacy. Compared to education, where the extraction effect weakens after controls, healthcare appears to have a more distinct relationship with extraction.
 
-**Figure 5: Relationship Between Historical Extraction (ln_total_exports) and Mean Education Level (Controlling for Urbanity and Wealth)**
+#### **Figure 5: Relationship Between Historical Extraction (ln_total_exports) and Mean Education Level (Controlling for Urbanity and Wealth)**
 
 ![](images/Figure3.png)
 
 *Figure 3 plots mean years of education against historical extraction and shows no statistically significant relationship, supporting the placebo test that extraction does not generally predict human capital outcomes once wealth is controlled for.*
 
-**Table 5: Placebo Test - Effect of Colonial Extraction on Education (Nigeria DHS Clusters)** 
+#### **Table 5: Placebo Test - Effect of Colonial Extraction on Education (Nigeria DHS Clusters)** 
 
 | Model | Extraction Coefficient | Extraction p-value | Urban Coefficient | Urban p-value | Wealth Coefficient | Wealth p-value | R² |
 |---------|--------:|--------:|--------:|--------:|--------:|--------:|--------:|
