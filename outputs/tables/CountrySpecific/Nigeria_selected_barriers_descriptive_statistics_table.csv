@@ -1,0 +1,10 @@
+"Variable","Description","Mean","SD","Min","Max"
+"ln_total_exports","Logged historical slave exports by ethnic homeland",2.8471922292971,3.85276120826032,0,13.6588087935527
+"bhcatthw","Attitude toward healthcare worker barrier",NA,NA,Inf,-Inf
+"bhcnodrug","Lack of medicine barrier",0.474181273535507,0.223451187045769,0,0.901706700379267
+"bhcnoprov","Lack of provider barrier",0.375619762137971,0.210113953477484,0.0105263157894737,0.81578947368421
+"bhcnofemdr","Lack of female doctor barrier",0.199895129281678,0.175357166798586,0,0.757575757575758
+"bhcdistance","Distance barrier to healthcare",0.441778926571798,0.230516604530712,0.031578947368421,1
+"bhcpermit","Permission barrier",0.166149967592208,0.120320999736084,0,0.5
+"bhctaketran","Transportation barrier",0.426526983122867,0.235369510521702,0.0105263157894737,1
+"bhcalone","Not wanting to go alone barrier",0.251095074045139,0.17956147401379,0.0122699386503068,0.854838709677419

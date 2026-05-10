@@ -1,0 +1,35 @@
+
+Call:
+lm(formula = mean_outcome ~ ln_total_exports + mean_urban + mean_wealth + 
+    factor(country_name), data = plot_data, weights = total_women)
+
+Weighted Residuals:
+    Min      1Q  Median      3Q     Max 
+-6.2299 -0.6574  0.1207  0.9730  5.8427 
+
+Coefficients:
+                             Estimate Std. Error t value
+(Intercept)                  0.916812   0.034577  26.515
+ln_total_exports             0.002287   0.001669   1.370
+mean_urban                  -0.150147   0.054165  -2.772
+mean_wealth                 -0.064377   0.014131  -4.556
+factor(country_name)Kenya   -0.278803   0.024055 -11.590
+factor(country_name)Nigeria -0.118700   0.022062  -5.380
+factor(country_name)Uganda  -0.059689   0.037045  -1.611
+factor(country_name)Zambia  -0.399762   0.024483 -16.328
+                            Pr(>|t|)    
+(Intercept)                  < 2e-16 ***
+ln_total_exports             0.17209    
+mean_urban                   0.00609 ** 
+mean_wealth                 8.98e-06 ***
+factor(country_name)Kenya    < 2e-16 ***
+factor(country_name)Nigeria 2.03e-07 ***
+factor(country_name)Uganda   0.10867    
+factor(country_name)Zambia   < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.807 on 204 degrees of freedom
+Multiple R-squared:  0.7216,	Adjusted R-squared:  0.7121 
+F-statistic: 75.55 on 7 and 204 DF,  p-value: < 2.2e-16
+

@@ -1,0 +1,165 @@
+---
+title: "Expanded Research Design"
+format: html
+bibliography: references.bib
+---
+
+------------------------------------------------------------------------
+
+### Introduction
+
+How does colonial extraction affect contemporary healthcare access? A dominant theme in the historical development literature posits that historical extraction, characterized by the slave trade and colonial rule, is a fundamental cause of modern underdevelopment[@nunn2008]. Scholarship by Nathan Nunn has demonstrated a robust negative relationship between the number of slaves exported from a territory and its current economic relationships between the number of slaves exported from a territory and its current economic performance, arguing that the poorest African countries today are those that were most heavily targeted for extraction[@nunn2008]. Similarly, Acemoglu, Johnson, and Robinson contend that European powers had established “extractive states” in regions where high settler mortality made a permanent residence unfeasible[@acemoglu2001]. These states were designed to transfer resources to the metropole rather than protect private property or provide public goods, including healthcare, leaving a legacy of weak institutions that continue to stifle growth[@acemoglu2001][@michalopoulos2020].
+
+These country-level analyses, however, often assume a uniform national effect and overlook the substantial within-country variation that characterizes African states[@michalopoulos2014]. While national institutions may correlate with wealth, particularly near the capital city, their influence often decays significantly as one moves into the hinterland[@michalopoulos2014]. Michalopoulos and Papaioannou have advanced this subnational perspective, arguing that Africa frequently operates under”dual institutional systems” where formal national laws are secondary to the effect of local ethnic norms in remote regions[@michalopoulos2014]. Their research has revealed that for many partitioned ethnicities, differences in countrywide institutional structures across national borders do not explain differences in local development. This is suggestive of a critical gap in current understanding: if national institutions failed to penetrate the interior, what historical forces determine a household’s ability to access vital services such as healthcare[@michalopoulos2014].
+
+This paper addresses this gap by shifting the unit of analysis to ethnic homelands and household clusters within Nigeria. While prior studies primarily utilize aggregate measures like real per capita GDP or satellite-recorded light density to proxy for development, this study examines individual well-being through the lens of self-reported healthcare barriers[@nunn2008]. This focus allows for a distinction between institutional capacity, the quality of the healthcare system itself, and household-level access, the ability of individuals to traverse financial and logistical constraints[@michalopoulos2014]. 
+
+Building on earlier contributions, this analysis proposes a mechanism of spatially uneven economic and administrative persistence post-colonial presence. Because colonial extraction was often geographically concentrated around specific trade routes, administrative centers, and export infrastructure, it may have generated localized economic advantages that outlived the colonial era itself[@michalopoulos2014]. By leveraging subnational variation, this paper investigates whether households in historically high-extraction regions possess higher levels of wealth and better proximity to infrastructure, thereby facing fewer barriers to accessing care[@michalopoulos2020]. In doing so, it extends the subnational development literature to individual healthcare outcomes, offering a more nuanced understanding of how the shadow of history continues to shape the livelihoods of post-colonial communities today[@michalopoulos2016].
+
+------------------------------------------------------------------------
+
+### Hypothesis
+
+While prior literature has emphasized that extractive institutions reduce long-run economic development and institutional quality at the country-level, this analysis focuses on within-country variation and household-level outcomes[@nunn2008][@acemoglu2001]. In doing so, it builds on recent work by Michalopoulos and Papaioannou, who demonstrate that national institutions often have limited explanatory power for economic outcomes within partitioned ethnic homelands[@michalopoulos2014]. Their findings suggest that development patterns in Africa are shaped not only by national-scale institutional quality, but also by localized historical and economic conditions[@michalopoulos2016; @michalopoulos2014].
+
+This insight is central to the framework of the following discussion. Nigeria, like many of its African peer countries, exhibits substantial spatial heterogeneity in economic activity and state presence[@michalopoulos2014]. Similarly, colonial extraction during the was not uniformly distributed across the country[@nunn2008]. In fact, extraction was concentrated in regions with access to trade routes, administrative centers, and export infrastructure [@nunn2008]. Consistent with prior work on the persistence of colonial presence, during the colonial period, due to the Western focus on areas of high extraction, these regions became more economically integrated[@michalopoulos2020].
+
+Therefore, the primary hypothesis of this work is that higher levels of historical colonial extraction (measured as log slave exports at the ethnic homeland level) are associated with a lower probability that individuals report barriers to accessing healthcare.
+
+The mechanism underlying this hypothesis operates through localized economic persistence rather than national institutional quality, as previously possessed[@michalopoulos2020]. In line with prior research focused on local dynamics dominating national institutions, this paper posits that extraction-driven economic differences persist independently of national policy environments[@michalopoulos2014]. Regions historically exposed to extraction developed greater integration into trade and administrative networks, resulting in higher contemporary levels of household wealth[@michalopoulos2020]. Leading to the second hypothesis of this piece: higher levels of historical extraction are associated with higher contemporary household wealth at the cluster level. 
+
+Household wealth, in turn, plays a central role in determining access to healthcare. The dependent variables used in this analysis, such as inability to afford treatment, lack of drugs, absence of providers, and difficulties gaining permission, capture self-reported barriers rather than objective measures of healthcare capacity. As such, along with a reflection of how individuals traverse healthcare systems, they reflect an individual’s ability to navigate financial, geographic, and social constraints[@acemoglu2001]. Wealthier households are better able to overcome these constraints, even in settings where healthcare systems are weaker or unevenly distributed, implying that higher household wealth is associated with a lower probability of reporting barriers to healthcare access.
+
+Taken together, these hypotheses imply the following mechanism at work: 
+
+**Extraction → Localized Economic Advantage → Higher Household Wealth → Lower Reported Barriers**
+
+------------------------------------------------------------------------
+
+### Data & Discussion
+
+This analysis focuses on Nigeria (2008) and combines historical and contemporary datasets to examine whether colonial extraction has an effect on present-day healthcare access. The primary independent variable is historical colonial extraction, measured as the natural logarithm of total exports associated with each ethnic homeland (ln_total_exports), following the approach of prior literature. This variable captures the intensity of historical exposure to extractive economic systems.
+
+The main dependent variables are a set of binary indicators of self-reported barriers to healthcare access, derived from DHS survey responses. These variables take the value of 1 if the respondent reports a given factor as a “big problem” in accessing healthcare, and a 0 otherwise. The specific outcomes include:
+
+-   bhcmoney (cost barrier)
+
+-   bhcdrug (lack of medicines)
+
+-   bhcnoprov (lack of providers)
+
+-   bhcnofemdr (lack of female doctor)
+
+-   bhcpermit (need permission)
+
+-   bhcdistance (distance barrier)
+
+-   bhctaketran (transportation barrier)
+
+These measures capture perceived constraints to accessing care, rather than objective healthcare system capacity. 
+
+To account for key confounders, the analysis includes controls for mean household wealth (mean_wealth) at the cluster level, constructed from DHS wealth index (continuous measure, wealths) and urbanization (mean_urban), capturing the share of urban households within each cluster.
+
+**Table 1. Effect of Colonial Extraction on Healthcare Access Barriers (Nigeria DHS Clusters)**
+
+|  |  |  |  |  |  |  |  |
+|----|----|----|----|----|----|----|----|
+| **Variable (Barrier)** | **β: ln_total_exports** | **SE** | **p-value** | **Sig.** | **β: Mean Wealth** | **Wealth p-value** | **Wealth Sig.** |
+| bhcatthw (Affordability) | -0.013107 | 0.005662 | 0.0234 | \* | -0.097308 | 0.000872 | \*\*\* |
+| bhcnodrug (No drugs) | -0.011466 | 0.005428 | 0.038 | \* | -0.114284 | 0.0000606 | \*\*\* |
+| bhcnoprov (No provider) | -0.013107 | 0.005662 | 0.0234 | \* | -0.097308 | 0.000872 | \*\*\* |
+| bhcnofemdr (No female doctor) | -0.013423 | 0.005984 | 0.0278 | \* | -0.090196 | 0.00324 | \*\* |
+| bhcdistance (Distance) | -0.000523 | 0.004788 | 0.913 | ns | -0.130274 | 0.000000516 | \*\*\* |
+| bhcpermit (Permission) | -0.007778 | 0.003374 | 0.0239 | \* | -0.070881 | 0.000063 | \*\*\* |
+| bhctaketran (Transport) | -0.003693 | 0.004838 | 0.448 | ns | -0.144275 | 0.0000000602 | \*\*\* |
+
+*Table 1 presents the results of regressing each healthcare barrier variable on historical extraction, controlling for the wealth and urbanization of each cluster. Across most specifications, the coefficient on extraction is negative and statistically significant, indicating that higher historical exposure to extraction is associated with a lower probability of reporting barriers to healthcare access.*
+
+**Figure 1: Relationship Between Historical Extraction (ln_total_exports) and Mean Healthcare Outcome**
+
+![](ExpandedResearchDesign_files/Figure1.png){width="1000"}
+
+*Figure 1 displays a negative relationship between extraction and reported healthcare barriers, consistent with the regression results. Clusters with higher historical exposure to extraction tend to report fewer constraints to accessing healthcare. This pattern is consistent with the proposed mechanism of localized economic persistence, whereby historically advantageous regions exhibit higher wealth and improved ability to navigate healthcare constraints.*
+
+**Table 2. Summary Statistics for "bhcnodrug"**
+
+|                                   |          |         |         |
+|:---------------------------------:|:--------:|:-------:|:-------:|
+|           **Variable**            | **Mean** | **Min** | **Max** |
+| mean_outcome (Healthcare Barrier) |  0.479   |  0.088  |  0.974  |
+|         ln_total_exports          |  2.752   |    0    | 13.409  |
+|            mean_urban             |  0.317   |    0    |    1    |
+|            mean_wealth            |  3.013   |  1.114  |  4.605  |
+
+*Table 2 is an example of the Summary Statistics for each variable analyzed. (Note: As there are many variables being analyzed, I choose to add this as an example to prove distribution, but can incorporate this for breakdown for the other variables in the future).*
+
+The estimated coefficients on extraction range from approximately -0.0078 to -0.0134, and are statistically significant at conventional levels for key outcomes including affordability, drug availability, provider access, and permission constraints. That said, two variables, distance to healthcare facilities (bhcdistance) and transportation barriers (bhctaketran), do not show statistically significant relationships with extraction, suggesting that not all dimensions of access are affected equally.
+
+Importantly, mean household wealth is consistently negative and highly statistically significant across all specifications, with coefficients ranging from approximately -0.07 to -.014, confirming that wealth is a major determinant of healthcare access as expected. However, the persistence of  a statistically significant negative coefficient on extraction even post-controlling for wealth indicated that the effect of extraction is not operating solely through household economic resources. 
+
+To further examine the relationship between extraction and wealth, a separate regression is estimated with cluster-level wealth as a dependent variable (see Table 3). These results show a positive and highly significant relationship, with a coefficient of 0.0281 (p \< 0.001), indicating that regions with higher historical exposure to extraction exhibit higher contemporary wealth levels.
+
+**Table 3. Effect of Colonial Extraction on Cluster-Level Wealth (Nigeria DHS Clusters)**
+
+|  |  |  |  |  |  |
+|----|----|----|----|----|----|
+| **Variable** | **Coefficient (β)** | **Std. Error** | **t-value** | **p-value** | **Significance** |
+| Intercept | -0.138897 | 0.049586 | -2.801 | 0.00521 | \*\* |
+| ln_total_exports | 0.028124 | 0.005785 | 4.862 | 1.38E-06 | \*\*\* |
+
+**Figure 2: Relationship Between Historical Extraction (ln_total_exports) and Mean Cluster-Level Wealth\
+**
+
+![](ExpandedResearchDesign_files/Figure2.png){width="1000"}
+
+*Figure 2 plots the relationship between historical colonial extraction (ln_total_exports) and mean cluster-level wealth, showing a positive and statistically significant association where higher extraction is correlated with higher contemporary wealth.*
+
+------------------------------------------------------------------------
+
+### Research Design
+
+To test the relationship between historical colonial extraction and contemporary barriers to healthcare access, this paper estimates the following baseline regression at the DHS cluster level:
+
+$$
+\text{Barrier}_c = \beta_0 + \beta_1 \ln(\text{Extraction}_e) + \beta_2 \text{Wealth}_c + \beta_3 \text{Urban}_c + \epsilon_c
+$$
+
+Where Barrier_c represents the average probability that individuals in cluster *c* report a given healthcare access constraint, ln(Extraction_e) is the log of historical slave exports associated with the ethnic homeland *e* in which cluster c is located, Wealth_c is the mean cluster-level wealth, and Urban_c captures the share of urban households in the cluster.
+
+The coefficient of interest, β_1 , captures the relationship between historical extraction and contemporary healthcare access, after conditioning on key observable characteristics. Wealth is included as a control because it is a primary determinant of healthcare access and represents a key mediating channel through which extraction may operate. Controlling for wealth enables the analysis to distinguish between the indirect effect of extraction through household economic resources and any remaining direct effect operating through other mechanisms, such as infrastructure or service availability. Urbanization is included as it accounts for differences in access driven by population density, proximity to healthcare facilities, and the concentration of public services available in urban areas. 
+
+While the regression framework indeed provides evidence of robust association, the interpretation of β_1 as a causal effect is subject to several important limitations. First, historical extraction may be correlated with geographic characteristics, such as proximity to the coast and trade routes, which themselves can influence contemporary access to healthcare. Secondly, regions exposed to higher extraction may have experienced differential investment in infrastructure or administrative capacity during the colonial period, which could persist independently of extraction intensity. Thirdly, there may be selection effects, whereby populations with different socioeconomic characteristics sort into or out of historically advantaged regions through time. Finally, unobserved factors such as cultural norms and historical conflict could influence both extraction intensity and present-day healthcare access, leading to an omitted variable bias. 
+
+To strengthen the credibility of the proposed mechanism, this paper implements a placebo test using mean cluster-level education as the outcome variable. If the primary mechanism operates through localized economic and access-related channels, such as wealth and infrastructure, then extraction should not have a direct effect on outcomes that are less immediately tied to access constraints, once wealth is controlled for.
+
+\
+The placebo regression model is taken as:
+
+$$
+\text{Education}_c = \beta_0 + \beta_1 \ln(\text{Extraction}_e) + \beta_2 \text{Wealth}_c + \beta_3 \text{Urban}_c + \epsilon_c
+$$
+
+The results (as seen in Table 4) show that the coefficient of extraction is negative but statistically insignificant, while wealth remains strongly positive and highly significant. This pattern suggests that extraction does not independently predict education outcomes once wealth is accounted for. 
+
+**Table 4: Placebo Test - Effect of Colonial Extraction on Education (Nigeria DHS Clusters)** 
+
+|  |  |  |  |  |  |
+|----|----|----|----|----|----|
+| **Variable** | **Coefficient (β)** | **Std. Error** | **t-value** | **p-value** | **Significance** |
+| Intercept | -2.4884 | 0.59928 | -4.152 | 7.53E-05 | \*\*\* |
+| ln_total_exports | -0.06013 | 0.0565 | -1.064 | 0.29 | ns |
+| mean_urban | -1.06871 | 0.95874 | -1.115 | 0.268 | ns |
+| mean_wealth | 3.02202 | 0.27005 | 11.191 | \< 2e-16 | \*\*\* |
+
+**Figure 3: Relationship Between Historical Extraction (ln_total_exports) and Mean Education Level**
+
+![](ExpandedResearchDesign_files/Figure3.png){width="1000"}
+
+\
+*Figure 3 plots mean years of education against historical extraction and shows no statistically significant relationship, supporting the placebo test that extraction does not generally predict human capital outcomes once wealth is controlled for.*
+
+This placebo test is helpful as it rules out the alternative explanation that extraction is simply capturing a broad, generalizable form of development advantage across all outcomes. If extraction were acting as a proxy for overall socioeconomic advancement, we would expect it to significantly predict education as well. Instead, the absence of a significant relationship is supportive of the interpretation that extraction affects healthcare access through specific channels related to economic resources and access environments, rather than through universal improvements in human capital or development.
+
+All in all, the research design provides evidence consistent with a mechanism in which colonial extraction shapes contemporary healthcare access through both wealth-based pathways and persistent local structural advantages, while the placebo test strengthens confidence that the observed relationships are not driven by a general development gradient.
+
+References

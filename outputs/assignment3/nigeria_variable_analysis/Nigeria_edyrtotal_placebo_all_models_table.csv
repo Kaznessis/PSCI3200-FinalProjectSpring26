@@ -1,0 +1,10 @@
+"country","model","dependent_variable","n_ethnic_groups","term","coefficient","standard_error","t_value","p_value"
+"Nigeria","No controls","mean_education",93,"(Intercept)",4.02382419455244,0.420200193597355,9.57596939712064,1.96679691321992e-15
+"Nigeria","No controls","mean_education",93,"ln_total_exports",0.209436471328663,0.0841336518563445,2.48933056758631,0.0146155823668024
+"Nigeria","Urban control only","mean_education",93,"(Intercept)",3.37178614464343,0.44957386006277,7.49996039398878,4.32037999767974e-11
+"Nigeria","Urban control only","mean_education",93,"ln_total_exports",0.155643031450891,0.0819360813475592,1.89956645340017,0.0606924906126144
+"Nigeria","Urban control only","mean_education",93,"mean_urban",4.12975157189724,1.29395120550339,3.19158215111414,0.00194907645491228
+"Nigeria","Urban and wealth controls","mean_education",93,"(Intercept)",-2.48839884045934,0.599278922068916,-4.15232164660246,7.52823174452598e-05
+"Nigeria","Urban and wealth controls","mean_education",93,"ln_total_exports",-0.0601262947113072,0.0564990772829662,-1.06419958701581,0.290117101314562
+"Nigeria","Urban and wealth controls","mean_education",93,"mean_urban",-1.06871005128548,0.958737429947259,-1.11470567217165,0.267977658678136
+"Nigeria","Urban and wealth controls","mean_education",93,"mean_wealth",3.02202063441473,0.270047156790001,11.1907145045959,1.1555107939137e-18

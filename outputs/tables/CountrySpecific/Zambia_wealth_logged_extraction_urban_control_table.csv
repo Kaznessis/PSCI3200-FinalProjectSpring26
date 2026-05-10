@@ -1,0 +1,4 @@
+"country","model","n_ethnic_groups","term","coefficient","standard_error","t_value","p_value"
+"Zambia","mean_wealth ~ ln_total_exports + mean_urban",31,"(Intercept)",1.85915742750262,0.129576012496976,14.3480061754949,1.97205374664888e-14
+"Zambia","mean_wealth ~ ln_total_exports + mean_urban",31,"ln_total_exports",0.000105630448891892,0.0147465655651191,0.00716305423289509,0.994335551299147
+"Zambia","mean_wealth ~ ln_total_exports + mean_urban",31,"mean_urban",2.38379047786576,0.349100381416637,6.82838118993862,2.03225290012847e-07

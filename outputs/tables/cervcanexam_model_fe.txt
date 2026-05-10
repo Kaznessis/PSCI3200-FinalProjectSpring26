@@ -1,0 +1,31 @@
+
+Call:
+lm(formula = mean_outcome ~ ln_total_exports + mean_urban + mean_wealth + 
+    factor(country_name), data = plot_data, weights = total_women)
+
+Weighted Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.05973 -0.33754  0.04411  0.40197  0.96191 
+
+Coefficients:
+                              Estimate Std. Error t value
+(Intercept)                  -0.199953   0.032699  -6.115
+ln_total_exports             -0.001143   0.001589  -0.719
+mean_urban                    0.049575   0.045894   1.080
+mean_wealth                   0.110149   0.013757   8.006
+factor(country_name)Namibia   0.027973   0.011076   2.526
+factor(country_name)Zimbabwe -0.045127   0.010893  -4.143
+                             Pr(>|t|)    
+(Intercept)                  2.11e-07 ***
+ln_total_exports             0.475683    
+mean_urban                   0.285803    
+mean_wealth                  3.37e-10 ***
+factor(country_name)Namibia  0.015144 *  
+factor(country_name)Zimbabwe 0.000149 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6529 on 45 degrees of freedom
+Multiple R-squared:  0.8622,	Adjusted R-squared:  0.8468 
+F-statistic: 56.29 on 5 and 45 DF,  p-value: < 2.2e-16
+

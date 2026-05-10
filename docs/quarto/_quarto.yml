@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - PSCI3200ProjectProposal.qmd
+    - Research_Design.qmd
+    - ExpandedResearchDesign.qmd
+    - FinalProject.qmd
+
+website:
+  title: "Serafeim Kaznessis - PSCI 3200"
+  navbar: 
+    left: 
+      - href: index.qmd
+        text: Home
+      - href: PSCI3200ProjectProposal.qmd
+        text: Research Question
+      - href: Research_Design.qmd
+        text: Research Design
+      - href: ExpandedResearchDesign.qmd
+        text: Expanded Research Design
+      - href: FinalProject.qmd
+        text: Final Project
+        
+        
+    ## To add more pages
+    ## - href: XXXXX.qmd
+    ##    text: XXXXX

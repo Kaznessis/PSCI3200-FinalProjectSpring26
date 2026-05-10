@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = mean_outcome ~ ln_total_exports + mean_urban + mean_wealth, 
+    data = plot_data)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.170853 -0.060646 -0.003349  0.047453  0.272743 
+
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       0.404537   0.038813  10.423 3.09e-16 ***
+ln_total_exports -0.001827   0.002866  -0.638    0.526    
+mean_urban        0.041690   0.040046   1.041    0.301    
+mean_wealth      -0.070106   0.014160  -4.951 4.42e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.08855 on 75 degrees of freedom
+Multiple R-squared:  0.2833,	Adjusted R-squared:  0.2546 
+F-statistic: 9.881 on 3 and 75 DF,  p-value: 1.443e-05
+

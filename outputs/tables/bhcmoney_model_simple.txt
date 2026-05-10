@@ -1,0 +1,20 @@
+
+Call:
+lm(formula = mean_outcome ~ ln_total_exports, data = plot_data, 
+    weights = total_women)
+
+Weighted Residuals:
+     Min       1Q   Median       3Q      Max 
+-12.9965  -1.0432   0.9961   2.7512   7.6437 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)      0.473819   0.019086  24.826   <2e-16 ***
+ln_total_exports 0.006235   0.002773   2.249   0.0256 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.335 on 210 degrees of freedom
+Multiple R-squared:  0.02351,	Adjusted R-squared:  0.01886 
+F-statistic: 5.056 on 1 and 210 DF,  p-value: 0.02558
+

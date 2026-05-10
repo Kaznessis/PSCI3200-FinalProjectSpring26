@@ -1,0 +1,31 @@
+
+Call:
+lm(formula = mean_outcome ~ ln_total_exports + factor(country_name), 
+    data = positive_data, weights = total_women)
+
+Weighted Residuals:
+    Min      1Q  Median      3Q     Max 
+-6.9522 -1.2334  0.4221  1.8719  5.8797 
+
+Coefficients:
+                             Estimate Std. Error t value
+(Intercept)                  0.383508   0.046637   8.223
+ln_total_exports            -0.004142   0.004751  -0.872
+factor(country_name)Kenya   -0.092164   0.043022  -2.142
+factor(country_name)Nigeria  0.033144   0.038219   0.867
+factor(country_name)Uganda   0.189206   0.053652   3.527
+factor(country_name)Zambia   0.008425   0.048707   0.173
+                            Pr(>|t|)    
+(Intercept)                 1.41e-12 ***
+ln_total_exports            0.385590    
+factor(country_name)Kenya   0.034873 *  
+factor(country_name)Nigeria 0.388142    
+factor(country_name)Uganda  0.000665 ***
+factor(country_name)Zambia  0.863059    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.686 on 90 degrees of freedom
+Multiple R-squared:  0.2545,	Adjusted R-squared:  0.2131 
+F-statistic: 6.145 on 5 and 90 DF,  p-value: 6.068e-05
+

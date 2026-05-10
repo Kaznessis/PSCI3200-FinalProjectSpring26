@@ -1,0 +1,23 @@
+
+Call:
+lm(formula = mean_outcome ~ ln_total_exports, data = plot_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.25999 -0.08145 -0.01910  0.04797  0.53182 
+
+Coefficients:
+                  Estimate Std. Error t value
+(Intercept)       0.394103   0.038793   10.16
+ln_total_exports -0.002889   0.008256   -0.35
+                 Pr(>|t|)    
+(Intercept)      4.61e-11 ***
+ln_total_exports    0.729    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1712 on 29 degrees of freedom
+Multiple R-squared:  0.004204,	Adjusted R-squared:  -0.03013 
+F-statistic: 0.1224 on 1 and 29 DF,  p-value: 0.7289
+

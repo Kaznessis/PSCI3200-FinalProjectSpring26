@@ -1,0 +1,4 @@
+"country","model","n_ethnic_groups","term","coefficient","standard_error","t_value","p_value"
+"Nigeria","mean_wealth ~ ln_total_exports + mean_urban",79,"(Intercept)",2.46712621262819,0.136913240492639,18.0196320220821,3.6979921305083e-29
+"Nigeria","mean_wealth ~ ln_total_exports + mean_urban",79,"ln_total_exports",0.0149882090278643,0.0230870445988902,0.649204317324564,0.518163492944023
+"Nigeria","mean_wealth ~ ln_total_exports + mean_urban",79,"mean_urban",1.59330667514701,0.267671541233348,5.95246946240735,7.6248982750102e-08

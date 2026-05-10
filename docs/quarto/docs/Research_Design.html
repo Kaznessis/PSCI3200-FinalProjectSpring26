@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Final Project Research Design – Serafeim Kaznessis - PSCI 3200</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Serafeim Kaznessis - PSCI 3200</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./PSCI3200ProjectProposal.html"> 
+<span class="menu-text">Research Question</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./Research_Design.html" aria-current="page"> 
+<span class="menu-text">Research Design</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./ExpandedResearchDesign.html"> 
+<span class="menu-text">Expanded Research Design</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./FinalProject.html"> 
+<span class="menu-text">Final Project</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Final Project Research Design</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<ol type="1">
+<li><strong>Describe your research question and provide some background on why you find it interesting or important. Be sure to incorporate the feedback provided on the first assignment. Include references to at least two pieces of existing research that illustrate what has already been discovered about the relationship you are investigating. This could be articles published in academic journals, policy reports and white papers, articles published by think tanks and other credible organizations (ex. Brookings, the United Nations High Commissioner for Refugees, etc.), or pieces of data journalism. A full-credit response will probably be around 150-200 words. (40%)</strong></li>
+</ol>
+<p><strong>Question:</strong> Does historical exposure to extractive institutions, proxied by slave trade intensity, lead to weaker contemporary oncology infrastructure as measured by cancer screening rates?</p>
+<p>This project seeks to investigate whether historical colonial extraction affects disparities in contemporary cancer infrastructure. In particular, the project examines whether African areas historically exposed to higher levels of slave trade extraction exhibit lower cancer screening rates. A large body of research demonstrates that extractive institutions established during the slave trades and colonial periods produced persistent economic and institutional consequences across modern Africa. <a href="https://www.nber.org/system/files/working_papers/w13367/w13367.pdf">Nunn (2008)</a> shows that regions more heavily exposed to the transatlantic and Indian Ocean slave trades experienced long-term economic decline and weaker institutional development due to violence, depopulation, and social fragmentation. Similarly, <a href="https://www.aeaweb.org/articles?id=10.1257/aer.91.5.1369">Acemoglu, Johnson, and Robinson (2001)</a> argue that colonial powers frequently established extractive institutions designed to concentrate wealth away from citizens rather than develop inclusive governance systems, leaving durable effects on public service provision post-independence. These institutional weaknesses likely reduce state capacity to invest in public health systems, including preventative oncology services such as screening programs.</p>
+<p>Complementing this institutional literature, global health research <a href="https://www.thelancet.com/commissions-do/cancer-in-sub-saharan-africa">(e.g., Lancet Oncology Commission)</a> documents persistent deficits in cancer screening, diagnostic capacity, and workforce availability across sub-Saharan Africa.&nbsp;</p>
+<p>This project, therefore, tests whether long-run institutional legacies help explain observed disparities in oncology infrastructure across African regions.</p>
+<ol start="2" type="1">
+<li><strong>State at least one testable hypothesis. Distill your research question into a statement about a specific relationship you expect to see in the world. In most cases, this hypothesis will describe a causal relationship between two variables (i.e.&nbsp;changes in x cause changes in y). Make an argument for why you expect to see this relationship. This should be based on related findings from existing research and/or your own theoretical/logical reasoning. A full-credit response will probably be around 150-200 words. (25%)</strong></li>
+</ol>
+<p><strong>Hypothesis:</strong> Communities located within historical ethnic homelands that experienced higher levels of slave trade extraction will exhibit lower contemporary cancer screening rates.</p>
+<p>This hypothesis is grounded in literature linking historical extraction to long-run institutional and developmental outcomes. Nunn (2008) demonstrates that regions of Africa more heavily exposed to the slave trade experienced persistent economic decline and weaker institutional development. Moreover, <a href="https://academic.oup.com/qje/article/129/1/151/1897929?guestAccessKey=">Michalopoulos and Papaioannou (2014)</a> further demonstrate that historical ethnic homelands remain meaningful units for analyzing contemporary outcomes in Africa, with institutional legacies continuing to shape subnational development.</p>
+<p>These findings suggest two possible mechanisms. First, extractive historical processes weakened state capacity, limiting investment in public goods such as healthcare infrastructure. Preventive cancer screening programs require administrative coordination, medical infrastructure, and sustained public funding, all of which are constrained in institutionally weak regions. Second, historical extraction may reduce social and institutional trust, lowering engagement with formal healthcare providers.</p>
+<p>Together, these mechanisms imply that regions more heavily exposed to historical colonial extraction will exhibit systematically lower cancer screening rates today.</p>
+<ol start="3" type="1">
+<li><strong>Briefly discuss the specific variables you will use to test your hypothesis and the dataset they are drawn from. Be sure to mention the source of the data (the organization or individuals that produced it), the unit of analysis, and the sample. Create a ggplot to visualize the relationship between the variables being used to test your hypothesis. The best method of visualizing this relationship will depend on the scale of your variables. Good methods to consider are scatter plots (for continuous variables), grouped bar charts (for ordinal or binary variables), and line graphs (for continuous variables with time-series). (25%)</strong></li>
+</ol>
+<p>To test the hypothesis, the analysis links historical slave trade exposure to contemporary cancer screening outcomes using spatially matched datasets. The project draws from <a href="https://nathannunn.arts.ubc.ca/data/">Nathan Nunn’s Slave Trade Database</a>, which estimates the number of individuals exported from Africa by ethnic groups during the transatlantic and Indian Ocean slave trades. The key independent variable is slave trade intensity, measured as the number of individuals exported from each ethnic group in Nunn (2008). This metric, demonstrating slave trade extraction by ethnic group, is merged with <a href="https://nathannunn.arts.ubc.ca/data/">Murdock’s Ethnic Homeland Shapefile</a>, which geolocates historical ethnic territories across Africa.</p>
+<p>The dependent variable is cervical cancer screening rates, drawn from the Demographic and Health Surveys (DHS) program administered by USAID. DHS provides geocoded cluster-level data on women’s health behaviors, including whether respondents have received cervical cancer screening. The unit of analysis is the DHS survey cluster, representing local communities with observed screening outcomes and assigned historical exposure.</p>
+<p>DHS cluster coordinates are spatially overlapped on the ethnic homeland polygons, obtained from the Murdock Shapefile, to assign each cluster the historical slave trade exposure of the ethnic group whose homeland contains it.</p>
+<p>Because the dataset contains many clusters within each modern country, this empirical specification allows for the inclusion of country fixed effects, enabling the analysis to compare communities with different levels of historical slave trade exposure within the same national institutional environment. This helps isolate the relationship between historical extraction and contemporary screening outcomes while controlling for country-level factors such as national health policy, economic development, or institutional quality.</p>
+<p>The resulting dataset includes cluster-level screening rates and historical extraction intensity.</p>
+<p>Please note: Due to constraints in manually identifying and extracting relevant variables across multiple national DHS datasets, this analysis is currently implemented as a proof of concept using data from Cameroon. The attached figures include (1) a spatial mapping of cervical cancer screening rates by geolocated ethnicity, (2) a mapping of slave trade intensity by geolocated ethnicity, and (3) a scatter plot illustrating the relationship between slave trade exposure and cervical cancer screening rates across ethnic groups within Cameroon.</p>
+<p>The spatial maps and scatterplot provide preliminary visual evidence of substantial heterogeneity across ethnic regions, motivating the regression analysis.</p>
+<p>(1) <strong>Cervical Cancer Screening Rates Spatial Mapping</strong></p>
+<p><img src="images/clipboard-2354182760.png" class="img-fluid"></p>
+<p>(2) <strong>Slave Trade Intensity Spatial Mapping</strong></p>
+<p><img src="images/clipboard-3039526766.png" class="img-fluid"></p>
+<p>(3)</p>
+<p><img src="images/clipboard-2887209555.png" class="img-fluid"></p>
+<p><strong>Next Steps: Scaling the Analysis</strong></p>
+<p>To move beyond the current Cameroon-based proof of concept, the next phase of this project will focus on constructing a unified, multi-country dataset that enables systematic cross-country analysis. The final data set will be the result of extracting DHS cluster-level GPS coordinates and corresponding cervical cancer screening metrics.&nbsp;Although this step is time-intensive due to the fragmented structure of DHS files and&nbsp;manual variable identification, it is necessary to create a consistent, geolocated dataset of screening outcomes.</p>
+<p>These DHS clusters will then be spatially matched to ethnic homelands using the Murdock shapefile and linked to slave trade exposure from the Nunn dataset. This will produce a single, integrated dataset at the cluster level, allowing for a comparable analysis across countries, enabling stronger statistical inference than that of isolated country-level models.</p>
+<ol start="4" type="1">
+<li><strong>Specify the main regression model you will use to test your hypothesis. This regression model should provide a preliminary test for or against the validity of your hypothesis. Use markdown to render the equation neatly to the html file. (10%)</strong></li>
+</ol>
+<p><span class="math display">\[
+\text{Screening}_{c} = \beta_0 + \beta_1 \ln(\text{SlaveExports}_{c}) + \beta_2 \text{Age}_{c} + \beta_3 \text{Urban}_{c} + \gamma_{k} + \varepsilon_{c}
+\]</span></p>
+<ul>
+<li><strong>Screening_c</strong></li>
+</ul>
+<p>Cervical cancer screening rate in DHS cluster c, constructed from DHS individual-level responses.</p>
+<ul>
+<li><strong>SlaveExports_e</strong>&nbsp;</li>
+</ul>
+<p>Slave trade intensity for ethnic group e, assigned to cluster c via spatial overlap with the Murdock Ethnic Homeland Shapefile and drawn from Nunn (2008).</p>
+<ul>
+<li><strong>Age_c</strong></li>
+</ul>
+<p>Average age of women in cluster c, controlling for variation in screening likelihood across age groups.</p>
+<ul>
+<li><strong>Urban_c</strong></li>
+</ul>
+<p>Indicator for whether cluster c is classified as urban, capturing differences in healthcare access between urban and rural areas.</p>
+<ul>
+<li><strong>γ_k</strong>&nbsp;</li>
+</ul>
+<p>Represents country fixed effects, which control for national-level characteristics such as health policy, economic development, and institutional quality. As multiple DHS clusters exist within each country, this specification allows the analysis to compare communities with different levels of historical slave trade exposure within the same national environment.</p>
+<ul>
+<li><strong>β_1</strong>&nbsp;</li>
+</ul>
+<p>Captures whether higher historical extraction intensity is associated with lower contemporary screening rates.</p>
+<p>The coefficient β_1 captures the relationship between historical slave trade intensity and contemporary cervical cancer screening rates. A negative and statistically significant β_1 would provide evidence consistent with the hypothesis that greater historical extraction is associated with weaker modern oncology infrastructure, even after controlling for demographic composition (age), urbanization, and country-level factors.</p>
+<p><strong><br>
+Cervical Cancer Screening Rates vs.&nbsp;Log Slave Export Intensity</strong><br>
+<img src="images/clipboard-767181625.png" class="img-fluid"><br>
+The slave exports metric was logged as the raw slave export variable is highly skewed and non-linear in its relationship with outcomes. Additionally, please be aware that the following regression has yet to incorporate the control for confounders and country-fixed effects. The full specification will be implemented in future analysis.</p>
+<p><strong>Table 01. Linear Regression of Cervical Cancer Screening Rates on Log Slave Exports.</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 13%">
+<col style="width: 16%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 19%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Variable</td>
+<td>Estimate</td>
+<td>Std. Error</td>
+<td>t value</td>
+<td>p-value</td>
+<td>Significance</td>
+</tr>
+<tr class="even">
+<td>Intercept</td>
+<td>0.01894</td>
+<td>0.00748</td>
+<td>2.532</td>
+<td>0.0149</td>
+<td>*</td>
+</tr>
+<tr class="odd">
+<td>ln_total_exports</td>
+<td>0.00311</td>
+<td>0.00163</td>
+<td>1.908</td>
+<td>0.0627</td>
+<td>.</td>
+</tr>
+</tbody>
+</table>
+<p>The estimated coefficient on log slave exports is positive (β₁ = 0.0031) and marginally statistically significant at the 10% level (p = 0.063). This finding runs counter to the hypothesis that higher historical extraction leads to weaker contemporary oncology infrastructure. One possible explanation is that this result reflects noise due to the limited sample (Cameroon only) or unobserved confounding factors. The small magnitude of the coefficient and low explanatory power (R² = 0.075) further suggest that this relationship is weak and should be interpreted cautiously.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

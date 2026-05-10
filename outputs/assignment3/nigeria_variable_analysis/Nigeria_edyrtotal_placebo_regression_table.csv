@@ -1,0 +1,6 @@
+"country","model_type","dependent_variable","n_ethnic_groups","term","coefficient","standard_error","t_value","p_value"
+"Nigeria","no_controls","mean_education",93,"(Intercept)",4.02382419455244,0.420200193597355,9.57596939712064,1.96679691321992e-15
+"Nigeria","no_controls","mean_education",93,"ln_total_exports",0.209436471328663,0.0841336518563445,2.48933056758631,0.0146155823668024
+"Nigeria","urban_control_only","mean_education",93,"(Intercept)",3.37178614464343,0.44957386006277,7.49996039398878,4.32037999767974e-11
+"Nigeria","urban_control_only","mean_education",93,"ln_total_exports",0.155643031450891,0.0819360813475592,1.89956645340017,0.0606924906126144
+"Nigeria","urban_control_only","mean_education",93,"mean_urban",4.12975157189724,1.29395120550339,3.19158215111414,0.00194907645491228

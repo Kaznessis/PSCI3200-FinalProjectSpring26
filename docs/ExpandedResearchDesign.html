@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Expanded Research Design</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="ExpandedResearchDesign_files/libs/clipboard/clipboard.min.js"></script>
+<script src="ExpandedResearchDesign_files/libs/quarto-html/quarto.js"></script>
+<script src="ExpandedResearchDesign_files/libs/quarto-html/popper.min.js"></script>
+<script src="ExpandedResearchDesign_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="ExpandedResearchDesign_files/libs/quarto-html/anchor.min.js"></script>
+<link href="ExpandedResearchDesign_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="ExpandedResearchDesign_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="ExpandedResearchDesign_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="ExpandedResearchDesign_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="ExpandedResearchDesign_files/libs/bootstrap/bootstrap-c0367b04c37547644fece4185067e4a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Expanded Research Design</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<hr>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>How does colonial extraction affect contemporary healthcare access? A dominant theme in the historical development literature posits that historical extraction, characterized by the slave trade and colonial rule, is a fundamental cause of modern underdevelopment<span class="citation" data-cites="nunn2008">(<a href="#ref-nunn2008" role="doc-biblioref">Nunn 2008</a>)</span>. Scholarship by Nathan Nunn has demonstrated a robust negative relationship between the number of slaves exported from a territory and its current economic relationships between the number of slaves exported from a territory and its current economic performance, arguing that the poorest African countries today are those that were most heavily targeted for extraction<span class="citation" data-cites="nunn2008">(<a href="#ref-nunn2008" role="doc-biblioref">Nunn 2008</a>)</span>. Similarly, Acemoglu, Johnson, and Robinson contend that European powers had established “extractive states” in regions where high settler mortality made a permanent residence unfeasible<span class="citation" data-cites="acemoglu2001">(<a href="#ref-acemoglu2001" role="doc-biblioref">Acemoglu, Johnson, and Robinson 2001</a>)</span>. These states were designed to transfer resources to the metropole rather than protect private property or provide public goods, including healthcare, leaving a legacy of weak institutions that continue to stifle growth[<span class="citation" data-cites="acemoglu2001">Acemoglu, Johnson, and Robinson (<a href="#ref-acemoglu2001" role="doc-biblioref">2001</a>)</span>]<span class="citation" data-cites="michalopoulos2020">(<a href="#ref-michalopoulos2020" role="doc-biblioref">Michalopoulos and Papaioannou 2020</a>)</span>.</p>
+<p>These country-level analyses, however, often assume a uniform national effect and overlook the substantial within-country variation that characterizes African states<span class="citation" data-cites="michalopoulos2014">(<a href="#ref-michalopoulos2014" role="doc-biblioref">Michalopoulos and Papaioannou 2014</a>)</span>. While national institutions may correlate with wealth, particularly near the capital city, their influence often decays significantly as one moves into the hinterland<span class="citation" data-cites="michalopoulos2014">(<a href="#ref-michalopoulos2014" role="doc-biblioref">Michalopoulos and Papaioannou 2014</a>)</span>. Michalopoulos and Papaioannou have advanced this subnational perspective, arguing that Africa frequently operates under”dual institutional systems” where formal national laws are secondary to the effect of local ethnic norms in remote regions<span class="citation" data-cites="michalopoulos2014">(<a href="#ref-michalopoulos2014" role="doc-biblioref">Michalopoulos and Papaioannou 2014</a>)</span>. Their research has revealed that for many partitioned ethnicities, differences in countrywide institutional structures across national borders do not explain differences in local development. This is suggestive of a critical gap in current understanding: if national institutions failed to penetrate the interior, what historical forces determine a household’s ability to access vital services such as healthcare<span class="citation" data-cites="michalopoulos2014">(<a href="#ref-michalopoulos2014" role="doc-biblioref">Michalopoulos and Papaioannou 2014</a>)</span>.</p>
+<p>This paper addresses this gap by shifting the unit of analysis to ethnic homelands and household clusters within Nigeria. While prior studies primarily utilize aggregate measures like real per capita GDP or satellite-recorded light density to proxy for development, this study examines individual well-being through the lens of self-reported healthcare barriers<span class="citation" data-cites="nunn2008">(<a href="#ref-nunn2008" role="doc-biblioref">Nunn 2008</a>)</span>. This focus allows for a distinction between institutional capacity, the quality of the healthcare system itself, and household-level access, the ability of individuals to traverse financial and logistical constraints<span class="citation" data-cites="michalopoulos2014">(<a href="#ref-michalopoulos2014" role="doc-biblioref">Michalopoulos and Papaioannou 2014</a>)</span>.&nbsp;</p>
+<p>Building on earlier contributions, this analysis proposes a mechanism of spatially uneven economic and administrative persistence post-colonial presence. Because colonial extraction was often geographically concentrated around specific trade routes, administrative centers, and export infrastructure, it may have generated localized economic advantages that outlived the colonial era itself<span class="citation" data-cites="michalopoulos2014">(<a href="#ref-michalopoulos2014" role="doc-biblioref">Michalopoulos and Papaioannou 2014</a>)</span>. By leveraging subnational variation, this paper investigates whether households in historically high-extraction regions possess higher levels of wealth and better proximity to infrastructure, thereby facing fewer barriers to accessing care<span class="citation" data-cites="michalopoulos2020">(<a href="#ref-michalopoulos2020" role="doc-biblioref">Michalopoulos and Papaioannou 2020</a>)</span>. In doing so, it extends the subnational development literature to individual healthcare outcomes, offering a more nuanced understanding of how the shadow of history continues to shape the livelihoods of post-colonial communities today<span class="citation" data-cites="michalopoulos2016">(<a href="#ref-michalopoulos2016" role="doc-biblioref">Michalopoulos and Papaioannou 2016</a>)</span>.</p>
+<hr>
+</section>
+<section id="hypothesis" class="level3">
+<h3 class="anchored" data-anchor-id="hypothesis">Hypothesis</h3>
+<p>While prior literature has emphasized that extractive institutions reduce long-run economic development and institutional quality at the country-level, this analysis focuses on within-country variation and household-level outcomes[<span class="citation" data-cites="nunn2008">Nunn (<a href="#ref-nunn2008" role="doc-biblioref">2008</a>)</span>]<span class="citation" data-cites="acemoglu2001">(<a href="#ref-acemoglu2001" role="doc-biblioref">Acemoglu, Johnson, and Robinson 2001</a>)</span>. In doing so, it builds on recent work by Michalopoulos and Papaioannou, who demonstrate that national institutions often have limited explanatory power for economic outcomes within partitioned ethnic homelands<span class="citation" data-cites="michalopoulos2014">(<a href="#ref-michalopoulos2014" role="doc-biblioref">Michalopoulos and Papaioannou 2014</a>)</span>. Their findings suggest that development patterns in Africa are shaped not only by national-scale institutional quality, but also by localized historical and economic conditions<span class="citation" data-cites="michalopoulos2016 michalopoulos2014">(<a href="#ref-michalopoulos2016" role="doc-biblioref">Michalopoulos and Papaioannou 2016</a>, <a href="#ref-michalopoulos2014" role="doc-biblioref">2014</a>)</span>.</p>
+<p>This insight is central to the framework of the following discussion. Nigeria, like many of its African peer countries, exhibits substantial spatial heterogeneity in economic activity and state presence<span class="citation" data-cites="michalopoulos2014">(<a href="#ref-michalopoulos2014" role="doc-biblioref">Michalopoulos and Papaioannou 2014</a>)</span>. Similarly, colonial extraction during the was not uniformly distributed across the country<span class="citation" data-cites="nunn2008">(<a href="#ref-nunn2008" role="doc-biblioref">Nunn 2008</a>)</span>. In fact, extraction was concentrated in regions with access to trade routes, administrative centers, and export infrastructure <span class="citation" data-cites="nunn2008">(<a href="#ref-nunn2008" role="doc-biblioref">Nunn 2008</a>)</span>. Consistent with prior work on the persistence of colonial presence, during the colonial period, due to the Western focus on areas of high extraction, these regions became more economically integrated<span class="citation" data-cites="michalopoulos2020">(<a href="#ref-michalopoulos2020" role="doc-biblioref">Michalopoulos and Papaioannou 2020</a>)</span>.</p>
+<p>Therefore, the primary hypothesis of this work is that higher levels of historical colonial extraction (measured as log slave exports at the ethnic homeland level) are associated with a lower probability that individuals report barriers to accessing healthcare.</p>
+<p>The mechanism underlying this hypothesis operates through localized economic persistence rather than national institutional quality, as previously possessed<span class="citation" data-cites="michalopoulos2020">(<a href="#ref-michalopoulos2020" role="doc-biblioref">Michalopoulos and Papaioannou 2020</a>)</span>. In line with prior research focused on local dynamics dominating national institutions, this paper posits that extraction-driven economic differences persist independently of national policy environments<span class="citation" data-cites="michalopoulos2014">(<a href="#ref-michalopoulos2014" role="doc-biblioref">Michalopoulos and Papaioannou 2014</a>)</span>. Regions historically exposed to extraction developed greater integration into trade and administrative networks, resulting in higher contemporary levels of household wealth<span class="citation" data-cites="michalopoulos2020">(<a href="#ref-michalopoulos2020" role="doc-biblioref">Michalopoulos and Papaioannou 2020</a>)</span>. Leading to the second hypothesis of this piece: higher levels of historical extraction are associated with higher contemporary household wealth at the cluster level.&nbsp;</p>
+<p>Household wealth, in turn, plays a central role in determining access to healthcare. The dependent variables used in this analysis, such as inability to afford treatment, lack of drugs, absence of providers, and difficulties gaining permission, capture self-reported barriers rather than objective measures of healthcare capacity. As such, along with a reflection of how individuals traverse healthcare systems, they reflect an individual’s ability to navigate financial, geographic, and social constraints<span class="citation" data-cites="acemoglu2001">(<a href="#ref-acemoglu2001" role="doc-biblioref">Acemoglu, Johnson, and Robinson 2001</a>)</span>. Wealthier households are better able to overcome these constraints, even in settings where healthcare systems are weaker or unevenly distributed, implying that higher household wealth is associated with a lower probability of reporting barriers to healthcare access.</p>
+<p>Taken together, these hypotheses imply the following mechanism at work:&nbsp;</p>
+<p><strong>Extraction → Localized Economic Advantage → Higher Household Wealth → Lower Reported Barriers</strong></p>
+<hr>
+</section>
+<section id="data-discussion" class="level3">
+<h3 class="anchored" data-anchor-id="data-discussion">Data &amp; Discussion</h3>
+<p>This analysis focuses on Nigeria (2008) and combines historical and contemporary datasets to examine whether colonial extraction has an effect on present-day healthcare access. The primary independent variable is historical colonial extraction, measured as the natural logarithm of total exports associated with each ethnic homeland (ln_total_exports), following the approach of prior literature. This variable captures the intensity of historical exposure to extractive economic systems.</p>
+<p>The main dependent variables are a set of binary indicators of self-reported barriers to healthcare access, derived from DHS survey responses. These variables take the value of 1 if the respondent reports a given factor as a “big problem” in accessing healthcare, and a 0 otherwise. The specific outcomes include:</p>
+<ul>
+<li><p>bhcmoney (cost barrier)</p></li>
+<li><p>bhcdrug (lack of medicines)</p></li>
+<li><p>bhcnoprov (lack of providers)</p></li>
+<li><p>bhcnofemdr (lack of female doctor)</p></li>
+<li><p>bhcpermit (need permission)</p></li>
+<li><p>bhcdistance (distance barrier)</p></li>
+<li><p>bhctaketran (transportation barrier)</p></li>
+</ul>
+<p>These measures capture perceived constraints to accessing care, rather than objective healthcare system capacity.&nbsp;</p>
+<p>To account for key confounders, the analysis includes controls for mean household wealth (mean_wealth) at the cluster level, constructed from DHS wealth index (continuous measure, wealths) and urbanization (mean_urban), capturing the share of urban households within each cluster.</p>
+<p><strong>Table 1. Effect of Colonial Extraction on Healthcare Access Barriers (Nigeria DHS Clusters)</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Variable (Barrier)</strong></td>
+<td><strong>β: ln_total_exports</strong></td>
+<td><strong>SE</strong></td>
+<td><strong>p-value</strong></td>
+<td><strong>Sig.</strong></td>
+<td><strong>β: Mean Wealth</strong></td>
+<td><strong>Wealth p-value</strong></td>
+<td><strong>Wealth Sig.</strong></td>
+</tr>
+<tr class="even">
+<td>bhcatthw (Affordability)</td>
+<td>-0.013107</td>
+<td>0.005662</td>
+<td>0.0234</td>
+<td>*</td>
+<td>-0.097308</td>
+<td>0.000872</td>
+<td>***</td>
+</tr>
+<tr class="odd">
+<td>bhcnodrug (No drugs)</td>
+<td>-0.011466</td>
+<td>0.005428</td>
+<td>0.038</td>
+<td>*</td>
+<td>-0.114284</td>
+<td>0.0000606</td>
+<td>***</td>
+</tr>
+<tr class="even">
+<td>bhcnoprov (No provider)</td>
+<td>-0.013107</td>
+<td>0.005662</td>
+<td>0.0234</td>
+<td>*</td>
+<td>-0.097308</td>
+<td>0.000872</td>
+<td>***</td>
+</tr>
+<tr class="odd">
+<td>bhcnofemdr (No female doctor)</td>
+<td>-0.013423</td>
+<td>0.005984</td>
+<td>0.0278</td>
+<td>*</td>
+<td>-0.090196</td>
+<td>0.00324</td>
+<td>**</td>
+</tr>
+<tr class="even">
+<td>bhcdistance (Distance)</td>
+<td>-0.000523</td>
+<td>0.004788</td>
+<td>0.913</td>
+<td>ns</td>
+<td>-0.130274</td>
+<td>0.000000516</td>
+<td>***</td>
+</tr>
+<tr class="odd">
+<td>bhcpermit (Permission)</td>
+<td>-0.007778</td>
+<td>0.003374</td>
+<td>0.0239</td>
+<td>*</td>
+<td>-0.070881</td>
+<td>0.000063</td>
+<td>***</td>
+</tr>
+<tr class="even">
+<td>bhctaketran (Transport)</td>
+<td>-0.003693</td>
+<td>0.004838</td>
+<td>0.448</td>
+<td>ns</td>
+<td>-0.144275</td>
+<td>0.0000000602</td>
+<td>***</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 1 presents the results of regressing each healthcare barrier variable on historical extraction, controlling for the wealth and urbanization of each cluster. Across most specifications, the coefficient on extraction is negative and statistically significant, indicating that higher historical exposure to extraction is associated with a lower probability of reporting barriers to healthcare access.</em></p>
+<p><strong>Figure 1: Relationship Between Historical Extraction (ln_total_exports) and Mean Healthcare Outcome</strong></p>
+<p><img src="ExpandedResearchDesign_files/Figure1.png" class="img-fluid" width="1000"></p>
+<p><em>Figure 1 displays a negative relationship between extraction and reported healthcare barriers, consistent with the regression results. Clusters with higher historical exposure to extraction tend to report fewer constraints to accessing healthcare. This pattern is consistent with the proposed mechanism of localized economic persistence, whereby historically advantageous regions exhibit higher wealth and improved ability to navigate healthcare constraints.</em></p>
+<p><strong>Table 2. Summary Statistics for “bhcnodrug”</strong></p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Variable</strong></td>
+<td style="text-align: center;"><strong>Mean</strong></td>
+<td style="text-align: center;"><strong>Min</strong></td>
+<td style="text-align: center;"><strong>Max</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">mean_outcome (Healthcare Barrier)</td>
+<td style="text-align: center;">0.479</td>
+<td style="text-align: center;">0.088</td>
+<td style="text-align: center;">0.974</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ln_total_exports</td>
+<td style="text-align: center;">2.752</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">13.409</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">mean_urban</td>
+<td style="text-align: center;">0.317</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">mean_wealth</td>
+<td style="text-align: center;">3.013</td>
+<td style="text-align: center;">1.114</td>
+<td style="text-align: center;">4.605</td>
+</tr>
+</tbody>
+</table>
+<p><em>Table 2 is an example of the Summary Statistics for each variable analyzed. (Note: As there are many variables being analyzed, I choose to add this as an example to prove distribution, but can incorporate this for breakdown for the other variables in the future).</em></p>
+<p>The estimated coefficients on extraction range from approximately -0.0078 to -0.0134, and are statistically significant at conventional levels for key outcomes including affordability, drug availability, provider access, and permission constraints. That said, two variables, distance to healthcare facilities (bhcdistance) and transportation barriers (bhctaketran), do not show statistically significant relationships with extraction, suggesting that not all dimensions of access are affected equally.</p>
+<p>Importantly, mean household wealth is consistently negative and highly statistically significant across all specifications, with coefficients ranging from approximately -0.07 to -.014, confirming that wealth is a major determinant of healthcare access as expected. However, the persistence of&nbsp; a statistically significant negative coefficient on extraction even post-controlling for wealth indicated that the effect of extraction is not operating solely through household economic resources.&nbsp;</p>
+<p>To further examine the relationship between extraction and wealth, a separate regression is estimated with cluster-level wealth as a dependent variable (see Table 3). These results show a positive and highly significant relationship, with a coefficient of 0.0281 (p &lt; 0.001), indicating that regions with higher historical exposure to extraction exhibit higher contemporary wealth levels.</p>
+<p><strong>Table 3. Effect of Colonial Extraction on Cluster-Level Wealth (Nigeria DHS Clusters)</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Variable</strong></td>
+<td><strong>Coefficient (β)</strong></td>
+<td><strong>Std. Error</strong></td>
+<td><strong>t-value</strong></td>
+<td><strong>p-value</strong></td>
+<td><strong>Significance</strong></td>
+</tr>
+<tr class="even">
+<td>Intercept</td>
+<td>-0.138897</td>
+<td>0.049586</td>
+<td>-2.801</td>
+<td>0.00521</td>
+<td>**</td>
+</tr>
+<tr class="odd">
+<td>ln_total_exports</td>
+<td>0.028124</td>
+<td>0.005785</td>
+<td>4.862</td>
+<td>1.38E-06</td>
+<td>***</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Figure 2: Relationship Between Historical Extraction (ln_total_exports) and Mean Cluster-Level Wealth<br>
+</strong></p>
+<p><img src="ExpandedResearchDesign_files/Figure2.png" class="img-fluid" width="1000"></p>
+<p><em>Figure 2 plots the relationship between historical colonial extraction (ln_total_exports) and mean cluster-level wealth, showing a positive and statistically significant association where higher extraction is correlated with higher contemporary wealth.</em></p>
+<hr>
+</section>
+<section id="research-design" class="level3">
+<h3 class="anchored" data-anchor-id="research-design">Research Design</h3>
+<p>To test the relationship between historical colonial extraction and contemporary barriers to healthcare access, this paper estimates the following baseline regression at the DHS cluster level:</p>
+<p><span class="math display">\[
+\text{Barrier}_c = \beta_0 + \beta_1 \ln(\text{Extraction}_e) + \beta_2 \text{Wealth}_c + \beta_3 \text{Urban}_c + \epsilon_c
+\]</span></p>
+<p>Where Barrier_c represents the average probability that individuals in cluster <em>c</em> report a given healthcare access constraint, ln(Extraction_e) is the log of historical slave exports associated with the ethnic homeland <em>e</em> in which cluster c is located, Wealth_c is the mean cluster-level wealth, and Urban_c captures the share of urban households in the cluster.</p>
+<p>The coefficient of interest, β_1 , captures the relationship between historical extraction and contemporary healthcare access, after conditioning on key observable characteristics. Wealth is included as a control because it is a primary determinant of healthcare access and represents a key mediating channel through which extraction may operate. Controlling for wealth enables the analysis to distinguish between the indirect effect of extraction through household economic resources and any remaining direct effect operating through other mechanisms, such as infrastructure or service availability. Urbanization is included as it accounts for differences in access driven by population density, proximity to healthcare facilities, and the concentration of public services available in urban areas.&nbsp;</p>
+<p>While the regression framework indeed provides evidence of robust association, the interpretation of β_1 as a causal effect is subject to several important limitations. First, historical extraction may be correlated with geographic characteristics, such as proximity to the coast and trade routes, which themselves can influence contemporary access to healthcare. Secondly, regions exposed to higher extraction may have experienced differential investment in infrastructure or administrative capacity during the colonial period, which could persist independently of extraction intensity. Thirdly, there may be selection effects, whereby populations with different socioeconomic characteristics sort into or out of historically advantaged regions through time. Finally, unobserved factors such as cultural norms and historical conflict could influence both extraction intensity and present-day healthcare access, leading to an omitted variable bias.&nbsp;</p>
+<p>To strengthen the credibility of the proposed mechanism, this paper implements a placebo test using mean cluster-level education as the outcome variable. If the primary mechanism operates through localized economic and access-related channels, such as wealth and infrastructure, then extraction should not have a direct effect on outcomes that are less immediately tied to access constraints, once wealth is controlled for.</p>
+<p><br>
+The placebo regression model is taken as:</p>
+<p><span class="math display">\[
+\text{Education}_c = \beta_0 + \beta_1 \ln(\text{Extraction}_e) + \beta_2 \text{Wealth}_c + \beta_3 \text{Urban}_c + \epsilon_c
+\]</span></p>
+<p>The results (as seen in Table 4) show that the coefficient of extraction is negative but statistically insignificant, while wealth remains strongly positive and highly significant. This pattern suggests that extraction does not independently predict education outcomes once wealth is accounted for.&nbsp;</p>
+<p><strong>Table 4: Placebo Test - Effect of Colonial Extraction on Education (Nigeria DHS Clusters)</strong>&nbsp;</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Variable</strong></td>
+<td><strong>Coefficient (β)</strong></td>
+<td><strong>Std. Error</strong></td>
+<td><strong>t-value</strong></td>
+<td><strong>p-value</strong></td>
+<td><strong>Significance</strong></td>
+</tr>
+<tr class="even">
+<td>Intercept</td>
+<td>-2.4884</td>
+<td>0.59928</td>
+<td>-4.152</td>
+<td>7.53E-05</td>
+<td>***</td>
+</tr>
+<tr class="odd">
+<td>ln_total_exports</td>
+<td>-0.06013</td>
+<td>0.0565</td>
+<td>-1.064</td>
+<td>0.29</td>
+<td>ns</td>
+</tr>
+<tr class="even">
+<td>mean_urban</td>
+<td>-1.06871</td>
+<td>0.95874</td>
+<td>-1.115</td>
+<td>0.268</td>
+<td>ns</td>
+</tr>
+<tr class="odd">
+<td>mean_wealth</td>
+<td>3.02202</td>
+<td>0.27005</td>
+<td>11.191</td>
+<td>&lt; 2e-16</td>
+<td>***</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Figure 3: Relationship Between Historical Extraction (ln_total_exports) and Mean Education Level</strong></p>
+<p><img src="ExpandedResearchDesign_files/Figure3.png" class="img-fluid" width="1000"></p>
+<p><br>
+<em>Figure 3 plots mean years of education against historical extraction and shows no statistically significant relationship, supporting the placebo test that extraction does not generally predict human capital outcomes once wealth is controlled for.</em></p>
+<p>This placebo test is helpful as it rules out the alternative explanation that extraction is simply capturing a broad, generalizable form of development advantage across all outcomes. If extraction were acting as a proxy for overall socioeconomic advancement, we would expect it to significantly predict education as well. Instead, the absence of a significant relationship is supportive of the interpretation that extraction affects healthcare access through specific channels related to economic resources and access environments, rather than through universal improvements in human capital or development.</p>
+<p>All in all, the research design provides evidence consistent with a mechanism in which colonial extraction shapes contemporary healthcare access through both wealth-based pathways and persistent local structural advantages, while the placebo test strengthens confidence that the observed relationships are not driven by a general development gradient.</p>
+<p>References</p>
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-acemoglu2001" class="csl-entry" role="listitem">
+Acemoglu, Daron, Simon Johnson, and James A. Robinson. 2001. <span>“The Colonial Origins of Comparative Development: An Empirical Investigation.”</span> <em>American Economic Review</em> 91 (5): 1369–1401.
+</div>
+<div id="ref-michalopoulos2014" class="csl-entry" role="listitem">
+Michalopoulos, Stelios, and Elias Papaioannou. 2014. <span>“National Institutions and Subnational Development in Africa.”</span> <em>The Quarterly Journal of Economics</em> 129 (1): 151–213.
+</div>
+<div id="ref-michalopoulos2016" class="csl-entry" role="listitem">
+———. 2016. <span>“The Long-Run Effects of the Scramble for Africa.”</span> <em>American Economic Review</em> 106 (7): 1802–48.
+</div>
+<div id="ref-michalopoulos2020" class="csl-entry" role="listitem">
+———. 2020. <span>“Historical Legacies and African Development.”</span> <em>Journal of Economic Literature</em> 58 (1): 53–128.
+</div>
+<div id="ref-nunn2008" class="csl-entry" role="listitem">
+Nunn, Nathan. 2008. <span>“The Long-Term Effects of Africa’s Slave Trades.”</span> <em>The Quarterly Journal of Economics</em> 123 (1): 139–76.
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
