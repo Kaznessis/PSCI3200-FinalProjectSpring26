@@ -6,7 +6,7 @@ bibliography: references.bib
 
 Author: Serafeim Nikolaos Kaznessis
 
-Mentor: Dr. Carolina Torreblana (PSCI 3200)
+Mentor: Dr. Carolina Torreblanca (PSCI 3200)
 
 Date: May 10 2026
 
