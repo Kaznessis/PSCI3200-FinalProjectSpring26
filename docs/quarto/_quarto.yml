@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: ..
   render:
     - index.qmd
     - PSCI3200ProjectProposal.qmd
